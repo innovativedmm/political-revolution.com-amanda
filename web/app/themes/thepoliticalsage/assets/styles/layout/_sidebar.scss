@@ -1,0 +1,10 @@
+@import '../components/widgets';
+
+.widget-area {
+  .widget {
+    ul {
+      @include menu-base;
+      @include menu-direction(vertical);
+    }
+  }
+}
